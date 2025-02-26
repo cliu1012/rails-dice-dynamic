@@ -1,0 +1,7 @@
+<h1> <%= @number_of_dice %>d<%= @number_of_sides %> </h1>
+
+<ul>
+  <% @dice_rolls.each do |roll| %>
+    <li> <%= roll %> </li>
+  <% end %>
+</ul>
